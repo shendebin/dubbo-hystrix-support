@@ -2,7 +2,7 @@
 
 
 ### 引入
-```
+```xml
 <dependency>
     <groupId>com.netease</groupId>
     <artifactId>dubbo-hystrix-support</artifactId>
@@ -11,7 +11,7 @@
 ```
 
 ### 配置
-```
+```java
 @Bean
 @Scope("prototype")
 public HystrixConfig hystrixConfig(){
